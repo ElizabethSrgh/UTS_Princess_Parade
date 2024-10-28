@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disney Delight"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/disney_image"
+            android:contentDescription="@string/disney_image_desc"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Tombol untuk setiap princess -->
+        <Button
+            android:id="@+id/button_moana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moana"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/button_mulan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mulan"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/button_tangled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tangled"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/button_brave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="brave"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/button_snowwhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="snowwhite"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/button_cinderella"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cinderella"
+            android:layout_marginTop="8dp"/>
+        <Button
+            android:id="@+id/button_thesleepingbeauty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="thesleepingbeauty"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/button_beautyandthebeast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="beautyandthebeast"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/button_frozen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="frozen"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

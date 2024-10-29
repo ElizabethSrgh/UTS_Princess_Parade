@@ -1,3 +1,8 @@
+Nama: Elizabeth Oktavia Saragih
+NIM: 221401094
+Lab 4 Pemrograman Mobile
+
+
 Nama Aplikasi:
 Princess parade
 
